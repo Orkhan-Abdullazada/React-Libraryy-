@@ -1,0 +1,51 @@
+.Footer {
+    width: 100%;
+    border: 1px solid rgba(240, 210, 95, 0.8);
+    height: 300px;
+    text-align: center;
+    background-color: rgba(240, 210, 95, 0.8);
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    width: 670px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    padding-left: 80px;
+    height: 70px;
+}
+
+.icons a {
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+.icons a:hover {
+    box-shadow: 0 2px 4px 0 hsla(0, 0%, 100%, .82), 0 2px 16px 0 #fff;
+}
+
+.Footer h3 {
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    font-size: 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+}
+
+.Footer h3:hover {
+    cursor: pointer;
+    color: rgba(61, 61, 61, 0.4);
+}
+
+span {
+    font-size: 20px;
+}
